@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Raleway&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: crimson;
+}
+:root{
+    --main : crimson;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+  
+
+}
+html{
+    font-size: 62.5%;
+    
+}
+
+/* ********************** NAVBAR SECTION ******************************** */
+.scrolling .button_container span { 
+    background-color: black;
+}
+
+.navbar li {
+    padding: 0 1.1rem;
+}
+.navbar li a{
+    font-size: 1.6rem;
+    border-radius: 10px;
+   color: white;
+    
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+.navbar li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 5px 10px 30px rgba(198, 102, 64, 0.3);
+    transition: 1s ease;
+    border-radius: 7px;
+}
+.navbar{
+    box-shadow: 0 1px 18px -12px black;
+    height: 66px;
+    background-color: var(--main);
+}
+.navbar .logo_image{
+    height: 48px;
+    width: 69px;
+
+}
+.bulb{
+    color: black;
+}
+
+/* Home section  */
+.h1, h1 {
+    font-size: 6rem;
+    text-align: center;
+}
+#my_image{
+    height: 200px;
+    width: 200px;
+    border-radius: 107px;
+}
+#home_box{
+    height: 70vh;
+    background-color:#efededa1;
+}
+.right_div{
+    height: 66vh;
+}
+.left_div{
+    height: 66vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.home_text{
+    font-size: 2.4rem;
+    color: black;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.Intro{
+    font-size: 6rem;
+}
+.move_text{
+    display: flex;
+    font-size: 6rem;
+   
+}
+#i_am{
+    color: black;
+    
+}
+.name{
+    font-size: 3rem;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+.btn{
+    padding: 10px;
+    font-size: 15px;
+   
+    background: none;
+    background-color: var(--main);
+    border-radius: 21px;
+    margin-top: 10px;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.naam{
+    color: #ce3635;
+}
+
+/* ABOUT SECTION  */
+.skills{
+    color: black;
+    font-size: 6rem;
+    font-family: 'Raleway', sans-serif;
+   
+}
+.hr{
+color: black;
+}
+#wik{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.fake_hr{
+   border-top: 2px solid black;
+   width: 20px;
+}
+.punchlines{
+    display: flex;
+    justify-content: center;
+}
+.skill_name{
+    color: black;
+    font-weight: bold;
+}
+.skill_loading{
+    border: 5px solid var(--main);
+}
+
+#html{
+    width: 450px;
+     animation: html 1.5s linear 
+}
+#css{
+    width: 400px;
+     animation: css 1.5s linear
+}
+#js{
+    width: 300px;
+     animation: js 1.5s linear
+}
+@keyframes html {
+    0% {
+       width: 0px;
+    }
+
+    100% {
+       width: 450px;
+    }
+
+}
+@keyframes css {
+    0% {
+       width: 0px;
+    }
+
+    100% {
+       width: 400px;
+    }
+
+}
+@keyframes js {
+    0% {
+       width: 0px;
+    }
+
+    100% {
+       width: 300px;
+    }
+
+}
+
+
+
+
+@media(max-width:768px){
+
+    .navbar li a{
+        color: white;
+        font-weight: bold;
+    }
+    .nav-back{
+        padding-right: 0;
+    padding-left: 0;
+    background-color: crimson;
+    z-index: 1;
+    width: 100%;
+    }
+
+
+}

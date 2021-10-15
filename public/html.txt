@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ***************************** BOOTSTRAP *********************************** -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- *****************************FONT AWESOME LINK*********************************** -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ***************************** CSS *********************************** -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- ***************************** TITLE *********************************** -->
+    <title>Rehan Ahmad</title>
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+  
+
+  
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container mx-auto nav-back">
+        <figure>
+          <a href="#"> <img src="./images/logo1.png" class="image-fluid logo_image my-auto" alt="logo inmage"></a>
+           
+        </figure>
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Recent Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="far fa-lightbulb bulb"></i></a> 
+            </li>
+
+        </div>
+      </div>
+      </nav>
+
+      <!-- Home section -->
+      <div class="container-fluid">
+        <div class="row" id="home_box">
+          <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+              
+              <!-- left side div  -->
+              <div class="col-md-6 col-12 left_div">
+                <p class="home_text">Hey!</p>
+                <h4 class="name">Myself <span class="naam"> <b> Rehan Ahmad</b></span></h4>
+                <div class="move_text">
+                <h1 id="i_am">I'm a&nbsp;</h1>
+                <!-- YT TEXT  -->
+                <h1>
+                  <a href="" class="typewrite" data-period="2000" data-type='[ "Programmer", "Designer", "Developer", "Photographer" ]'>
+                    <span class="wrap"></span>
+                  </a>
+                </h1>
+              </div>
+              <button type="button" class="btn"> <a href="./files/cv.pdf" download="Rehan Ahmad CV.">Download CV</a> </button>
+            
+                <!-- <h1 class="Intro">I am a <span class="speacial_text">developer</span> </h1> -->
+               
+              </div>
+
+              <!-- Right div  -->
+              <div class="col-md-6 col-12 right_div d-flex flex-column justify-content-center align-items-center">
+                <figure>
+                  <img src="./images/JEANS.jpg" alt="My Photo" id="my_image">
+                </figure>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- SKills Section  -->
+      <section class="main_heading my-5" id="ab">
+        <div>
+          <h1 class="text-center display-5 skills">My skills</h1>
+          <div class="punchlines">
+            <hr  class="fake_hr ">
+          <p id="wik">&nbsp;What i know&nbsp;</p>
+          <hr  class="fake_hr ">
+          </div>
+        </div>
+        <div class="container-fluid skills_box">
+          <div class="row">
+            <!-- Left div  -->
+            <div class="col-md-6 col-12">
+              <h3 class="skill_name">Html</h3>
+              <hr class="skill_loading" id="html">
+              <h3 class="skill_name" >Css</h3>
+              <hr class="skill_loading" id="css">
+              <h3 class="skill_name" >JS</h3>
+              <hr class="skill_loading" id="js">
+
+            </div>
+            <!-- right div  -->
+            <div class="col-md-6 col-12">
+              <h3 class="skill_name">Node Js,Express Js</h3>
+              <hr class="skill_loading" id="html">
+              <h3 class="skill_name" >Python</h3>
+              <hr class="skill_loading" id="css">
+              <h3 class="skill_name" >Django</h3>
+              <hr class="skill_loading" id="js">
+              <hr>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+</html>

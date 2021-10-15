@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+body{
+    font-family: 'Raleway', sans-serif;
+    display: flexbox;
+    flex-direction: column;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #161b21;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+:root{
+    --main_color: #f4a950;
+    --bg_color: #161b21;
+}
+*{
+    color: var(--main_color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Section  */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(255,102,203);
+  } 
+.logo_img{
+    height: 40px;
+    width: 69px;
+}
+.nav-link{
+    color: white;
+}
+.navbar{
+    background-color: #ffffff30;
+    box-shadow: -4px 4px 29px -2px black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.navbar li  {
+    padding: 8px;
+}
+.navbar li a  {
+    font-size: 17px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.navbar li a:hover{
+    background-color: #f4a950;
+    color: #161b21;
+    transition: 0.6s ease;
+    border-radius: 10px;
+} 
+
+ /* // this is a white icon with 50% opacity */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler {
+    border-color: lightgreen;
+}
+
+
+/* Home section  */
+
+
+.h1, h1 {
+    font-size: 6rem;
+    text-align: center;
+}
+#my_image{
+    height: 284px;
+    width: 328px;
+}
+#home_box{
+    height: 100vh;
+    background-color:var(--bg_color);
+}
+.right_div{
+    height: 100vh;
+}
+.left_div{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.home_text{
+    font-size: 2.4rem;
+    color: white;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.Intro{
+    font-size: 6rem;
+}
+.move_text{
+    display: flex;
+    font-size: 6rem;
+   
+}
+#moving_text{
+    font-size: 5.5rem;
+}
+#i_am{
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 5.5rem;
+}
+.name{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+.btn{
+    padding: 8px;
+    font-size: 13px;
+    background: none;
+    border-radius: 21px;
+    margin-top: 10px;
+    border: 3px solid var(--main_color);
+    color: white;
+    font-weight: bold;
+    outline: none;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: var(--main_color) ;
+    border: 3px solid var(--main_color);
+    color: black;
+}
+.btn a:hover{
+    color: black;
+}
+.naam{
+    color: #a79999;
+    font-family: 'Work Sans', sans-serif;
+}
+/* SKILL SECTION  */
+#Skill_section {
+    padding-bottom: 6vh ;
+}
+.skills{
+    color: white;
+    font-size: 5.3rem;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.hr{
+color: black;
+}
+#wik{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.fake_hr{
+   border-top: 2px solid white;
+   width: 20px;
+   margin-right: 12px;
+   margin-left: 9px;
+}
+.punchlines{
+    display: flex;
+    justify-content: center;
+   
+}
+.skill_name{
+    color: white;
+    font-weight: bold;
+    
+}
+.skill_loading{
+    border: 5px solid var(--main_color);
+}
+
+#html{
+    width: 270px;
+     animation: html 1.5s linear 
+}
+#css{
+    width: 250px;
+     animation: css 1.5s linear
+}
+#js{
+    width: 200px;
+     animation: js 1.5s linear
+}
+#node_js{
+    width: 260px;
+     animation: html 1.5s linear 
+}
+#python{
+    width: 250px;
+     animation: css 1.5s linear
+}
+#django{
+    width: 170px;
+     animation: js 1.5s linear
+}
+.level{
+    font-size: 1.5rem;
+}
+.parent_container_skills{
+    background-color: #37383af5;
+}
+@keyframes html {
+    0% {
+       width: 0px;
+    }
+
+    100% {
+       width: 270px;
+    }
+
+}
+@keyframes css {
+    0% {
+       width: 0px;
+    }
+
+    100% {
+       width: 250px;
+    }
+
+}
+@keyframes js {
+    0% {
+       width: 0px;
+    }
+
+    100% {
+       width: 200px;
+    }
+
+}
+
+/* Recent Project section  */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+.right_div_rp{
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+
+.instant_weather{
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+}
+.insp{
+    color: white;
+    font-size: 1.4rem;
+    font-family: 'Lato', sans-serif;
+}
+/* My Photo  */
+.about_section {
+    margin-top: 6.7rem;
+}
+.my_photo{
+    width: 250px;
+    height: 250px;
+    box-shadow: 10px;
+}
+.p_about{
+    font-size: 1.6rem;
+    color: white; 
+}
+.right_div_ab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left_div_ab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hr_about{
+    border: 1px solid var(--main_color);
+    width: 215px;
+    margin-right: 32rem;
+}
+
+.social_icons{
+    content: "\f09a";
+    font-size: 2.2rem;
+    color: white;
+    padding: 13px;
+}
+.fb:hover{
+    color: blue;
+    transition: 0.3s ease;
+}
+.insta:hover{
+    color: crimson;
+    transition: 0.3s ease;
+}
+.gh:hover{
+    color: green;
+    transition: 0.3s ease;
+}
+.linkedin:hover{
+    color: rgb(85, 87, 206);
+    transition: 0.3s ease;
+}
+.about_bg{
+    background-color: #363739;
+}
+
+/* Contact Page  */
+.contact{
+        margin-top: 4rem;
+}
+::placeholder{
+    color: white;
+}
+.info_name{
+    font-size: 2.5rem;
+    width: 53rem;;
+}
+#exampleFormControlInput1,#exampleFormControlInput2,#exampleFormControlInput3{
+    padding: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #f3a850;
+    color: white;
+}
+.contact_form_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text_of_info{
+    color: white; 
+    font-weight: bold; 
+    font-size: 1.9rem;
+}
+.mandatory{
+    color: red;
+    font-size: 13px;
+}
+.footer_p{
+    font-size: 1.5rem;
+    background-color: #3f4042;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+#heart{
+    color: red;
+}
+
+/* modal css  */
+.modal_para{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+.pass_box{
+    padding: 0.5rem 5rem;
+    border-radius: 7rem;
+    color: black;
+    font-size: 1.5rem;
+}
+.submit_pass{
+    margin: 0;
+    font-size: 1.2rem;
+    padding: 6px;
+}
+#definer{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+
+
+
+/* media queries  */
+@media (max-width:768px){
+    .navbar{
+        background-color: var(--bg_color);
+    }
+    .left_div {
+        margin-top: -10vh;
+    }
+    .right_div {
+        height: 94vh;
+    }
+    #moving_text{
+       font-size:3rem ; 
+    }
+    #i_am{
+        font-size: 3rem;
+    }
+    #my_image {
+        height: 200px;
+        width: 200px;
+    }
+    #my_image{
+        /* display: none; */
+        margin-bottom: 111vh;
+    }
+    .skills {
+        font-size: 4.3rem;    
+    }
+    .instant_weather{
+        font-size: 2.5rem;
+    }
+    .right_div_rp{
+        margin-top: 27px;
+    }
+    .hr_about{
+        margin-right: 2rem;
+        width: 18rem;
+    }
+    .p_about {
+        text-align: center;
+    }
+    .my_photo{
+        margin-left: 0;
+    }
+    .right_div_ab {
+        align-items: center;
+    }
+    .info_name {
+        width: 30rem;
+    }
+    .div_right_skill{
+        margin-top: -5rem;
+    }
+    .submit_pass {
+        margin-top: 1rem;
+    }
+    #definer{
+        margin-left: -1rem;
+        margin-top: 0.5rem;
+    }
+    .logo_img {
+        height: 30px;
+        width: 45px;
+    }
+}

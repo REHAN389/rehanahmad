@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- BOOTSTRAP CSS LINK  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- *****************************FONT AWESOME LINK*********************************** -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Rehan Ahmad</title>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+     
+      <img src="./images/logo.png" alt="logo image" class="logo_img">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon navbar-dark"><i class="fas fa-bars"
+            style="color:#df9744; font-size:19px;"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home_section">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Skill_section">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#rp">Recent Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about_scroll">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact_scroll">Contact</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- Home section -->
+
+  <section id="home_section">
+    <div class="container-fluid">
+      <div class="row" id="home_box">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+
+            <!-- left side div  -->
+            <div class="col-md-6 col-12 left_div">
+              <p class="home_text">Hey!</p>
+              <h4 class="name">I am <span class="naam"> <b> Rehan Ahmad</b></span></h4>
+              <div class="move_text">
+                <h1 id="i_am">I'm a&nbsp;</h1>
+                <!-- YT TEXT  -->
+                <h1 id="moving_text">
+                  <a href="" class="typewrite" data-period="2000"
+                    data-type='[ "Programmer", "Designer", "Developer", "Photographer" ]'>
+                    <span id="yt" class="wrap"></span>
+                  </a>
+                </h1>
+              </div>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                Download CV
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header" style="background-color: #2d3033;">
+                      <h5 class="modal-title" id="exampleModalLongTitle"
+                        style="color:#f4a950;font-weight: bold; font-size: 1.5rem;">
+                        **Verification**</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body" style="background-color: #2d3033;">
+                      <div class="main_content">
+                        <p class="modal_para">Enter password to download CV.</p>
+                        <form class="temp_form">
+                          <input type="password" id="pass1" placeholder="Enter password" class="pass_box">
+                          <button id="submitBtn" value="submit" class="btn submit_pass">Submit</button>
+                          <p id="definer"></p>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- My html  -->
+
+              <!-- <h1 class="Intro">I am a <span class="speacial_text">developer</span> </h1> -->
+
+            </div>
+
+            <!-- Right div  -->
+            <div class="col-md-6 col-12 right_div d-flex flex-column justify-content-center align-items-center">
+              <figure>
+                <img src="./images/2.png" alt="My Photo" id="my_image">
+              </figure>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- Skills section  -->
+  <section id="Skill_section" class="my-5">
+    <div class="container">
+      <h1 class="display-5 skills">My Skills</h1>
+
+    </div>
+    <div class="punchlines">
+      <hr class="fake_hr ">
+      <p id="wik">What i know</p>
+      <hr class="fake_hr ">
+    </div>
+    <div class="container-fluid parent_container_skills">
+      <div class="container my-5 all_skills">
+        <div class="row">
+          <!-- Right div  -->
+          <div class="col-md-6 col-12 py-5">
+            <div class="d-flex justify-content-between">
+              <h3 class="skill_name p-2 bd-highlight">Html</h3>
+              <div class="skill_name p-2 level">90%(Intermediate)</div>
+            </div>
+            <hr class="skill_loading" id="html">
+            <div class="d-flex justify-content-between">
+              <h3 class="skill_name p-2 bd-highlight">CSS</h3>
+              <div class="skill_name p-2 level">84%(Intermediate)</div>
+            </div>
+            <hr class="skill_loading" id="css">
+            <div class="d-flex justify-content-between">
+              <h3 class="skill_name p-2 bd-highlight">JS</h3>
+              <div class="skill_name p-2 level">60%(Beginner)</div>
+            </div>
+            <hr class="skill_loading" id="js">
+
+          </div>
+          <!-- Left div  -->
+          <div class="col-md-6 col-12 py-5 div_right_skill">
+            <div class="d-flex justify-content-between">
+              <h3 class="skill_name p-2 bd-highlight">Node,Express Js</h3>
+              <div class="skill_name p-2 level">85%(Intermediate)</div>
+            </div>
+
+
+            <hr class="skill_loading" id="node_js">
+            <div class="d-flex justify-content-between">
+              <h3 class="skill_name p-2 bd-highlight">Python</h3>
+              <div class="skill_name p-2 level">84%(Intermediate)</div>
+            </div>
+            <hr class="skill_loading" id="python">
+            <div class="d-flex justify-content-between">
+              <h3 class="skill_name p-2 bd-highlight">Django</h3>
+              <div class="skill_name p-2 level">55%(Beginner)</div>
+            </div>
+            <hr class="skill_loading" id="django">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- recent project  -->
+  <div class="container" id="rp">
+    <h1 class="display-5 skills rp">Recent Project</h1>
+  </div>
+  <div class="punchlines">
+    <hr class="fake_hr ">
+    <p id="wik">Hope you like it</p>
+    <hr class="fake_hr ">
+  </div>
+  <div class="container my-5">
+    <div class="row py-5">
+
+      <!-- left div  -->
+      <div class="col-md-6 col-12 left_div_rp">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/p1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/p2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/p3.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+      </div>
+      <!-- Right div  -->
+      <div class="col-md-6 col-12 right_div_rp ">
+        <h1 class="instant_weather">Instant Weather</h1>
+        <p class="insp">This site is fetching the current weather info of any particular city using an API.It is
+          developed by using NODE JS and EXPRESS JS.</p>
+        <a href="https://instant--weather.herokuapp.com/" target="_blank" class="btn">Check Now</a>
+
+      </div>
+
+    </div>
+  </div>
+  <!-- about section  -->
+  <section class="about_section" id="about_scroll">
+    <div class="container">
+      <h1 class="display-5 skills rp">About Me</h1>
+    </div>
+    <div class="punchlines">
+      <hr class="fake_hr ">
+      <p id="wik">Who am i</p>
+      <hr class="fake_hr ">
+    </div>
+    <div class="container-fluid about_bg">
+      <div class="container my-3">
+        <div class="row py-5">
+
+          <!-- left div  -->
+          <div class="col-md-6 col-12 left_div_ab">
+            <figure>
+              <img src="./images/8.jpg" class="my_photo image-fluid" alt="">
+            </figure>
+          </div>
+          <!-- Right div  -->
+          <div class="col-md-6 col-12 right_div_ab ">
+            <h6 class="p_about">Hello, my name is Rehan Ahmad. I am a full stack developer,designer and freelancer from India who like to paint pixels and creates clean and modern content for the world wide web.</h6>
+            <hr class="hr_about">
+            <div class="d-flex flex-start">
+              <a href="https://www.facebook.com/profile.php?id=100004258397227" target="__blank"><i class="fab fa-facebook social_icons fb"></i></a>
+              <a href="https://instagram.com/ahmad__sahab?utm_medium=copy_link" target="__blank"><i class="fab fa-instagram social_icons insta"></i></a>
+              <a href="https://github.com/REHAN389" target="__blank"><i class="fab fa-github social_icons gh"></i></a>
+              <a href="https://www.linkedin.com/in/rehan-ahmad-315825220" target="__blank"><i class="fab fa-linkedin social_icons linkedin"></i></a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Form section  -->
+
+  <section class="contact" id="contact_scroll">
+    <div class="container">
+      <h1 class="display-5 skills rp">Contact Me</h1>
+    </div>
+    <div class="punchlines">
+      <hr class="fake_hr ">
+      <p id="wik">Leave a message</p>
+      <hr class="fake_hr ">
+    </div>
+    <div class="container contact_form_box">
+      <form method="post">
+        <div class="form-group info_name">
+          <label for="exampleFormControlInput1 " class="text_of_info">Name<span class="mandatory">*</span></label>
+          <input type="text" class="form-control " id="exampleFormControlInput1" name="name"
+            placeholder="Enter your name." autocomplete="off">
+        </div>
+        <div class="form-group info_name">
+          <label for="exampleFormControlInput1" class="text_of_info">Email</label>
+          <input type="email" class="form-control " id="exampleFormControlInput2" name="email"
+            placeholder="Enter your email" autocomplete="off">
+        </div>
+        <div class="form-group info_name">
+          <label for="exampleFormControlTextarea1 " class="text_of_info">Message<span class="mandatory">*</span></label>
+          <textarea class="form-control " id="exampleFormControlInput3" name="message"
+            placeholder="Leave your message here.." rows="3" style="font-size: 1.5rem;" autocomplete="off"></textarea>
+        </div>
+        <button class="btn px-2" type="submit" id="submit_button">Submit</button>
+      </form>
+    </div>
+    <footer>
+      <p class="footer_p">Made with <span id="heart">&hearts;</span> by Rehan Ahmad</p>
+    </footer>
+
+
+  </section>
+  <!-- BOOTSTRAP JS  -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="./js/main.js"></script>
+  <script>
+    $("#submit_button").click(function (e) {
+     
+      var name = $("#exampleFormControlInput1").val();
+      var msg = $("#exampleFormControlInput3").val();
+      if (name == '' || msg == '') {
+        e.preventDefault();
+        swal({
+          title: "Any field is missing.",
+          text: "Please fill properly.",
+          icon: "warning",
+          button: "OK",
+        });
+      }
+      else{
+        swal({
+          title: "Congrats",
+          text: "Form filled successfully",
+          icon: "success",
+          button: "OK",
+        });
+      }
+    })
+  </script>
+
+</body>
+
+</html>
